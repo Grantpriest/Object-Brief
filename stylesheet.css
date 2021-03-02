@@ -1,0 +1,14 @@
+@font-face {
+		  font-family: "cmu";
+		  src: 
+		       url("/fonts/cmunrm-webfont.woff") format("woff");
+		}
+
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: cmu, serif;
+	font-style: normal; 
+	line-height: 0.3; 
+	letter-spacing: 0.4px;
+}
