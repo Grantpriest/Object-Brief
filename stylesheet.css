@@ -124,6 +124,7 @@ a {
  position: absolute;
  left: 700px;
  top: 2em;
+ max-width: 400px;
 }
 
 .references {
