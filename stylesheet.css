@@ -20,7 +20,7 @@ html {
 
 body {
 	margin-left: 1em;
-	margin-top: 1em;
+	margin-top: 2em;
 	color: #fff;
 	font-family: "helv", sans-serif;
 	font-style: normal; 
@@ -123,7 +123,7 @@ a {
 .exersizes {
  position: absolute;
  left:700px;
- top:15%;
+ top:0;
 }
 
 .references {
