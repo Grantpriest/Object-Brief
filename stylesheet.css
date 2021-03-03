@@ -1,14 +1,14 @@
 @font-face {
-		  font-family: "helv";
-		  src: 
-		       url("fonts/helvetica-neue-light.woff") format("woff");
-		}
+	font-family: "helv";
+	src: 
+	url("fonts/helvetica-neue-light.woff") format("woff");
+}
 
 		@font-face {
-		  font-family: "cmu";
-		  src: 
-		       url("fonts/cmunrm.woff") format("woff");
-		}
+	font-family: "cmu";
+	src: 
+	url("fonts/cmunrm.woff") format("woff");
+}
 
 html {
 	background: url(bg.jpg) no-repeat center center fixed; 
@@ -125,6 +125,7 @@ a {
  left: 700px;
  top: 2em;
  max-width: 400px;
+ margin-right: 1em;
 }
 
 .references {
