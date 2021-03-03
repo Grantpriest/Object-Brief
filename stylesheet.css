@@ -1,13 +1,135 @@
 @font-face {
-		  font-family: "cmu";
+		  font-family: "helv";
 		  src: 
-		       url("/fonts/cmunrm-webfont.woff") format("woff");
+		       url("fonts/helvetica-neue-light.woff") format("woff");
 		}
 
+		@font-face {
+		  font-family: "cmu";
+		  src: 
+		       url("fonts/cmunrm.woff") format("woff");
+		}
+
+html {
+	background: url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
-	background-color: #000;
+	margin-left: 1em;
+	margin-top: 1em;
 	color: #fff;
-	font-family: "cmu", serif;
+	font-family: "helv", sans-serif;
 	font-style: normal; 
-	letter-spacing: 0.4px;
+	text-decoration: none;
+	font-size: 0.85em;
+	letter-spacing: 0.7px;
+	line-height: 1.3em;
+	max-width: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+}
+
+h1 {
+	font-size: 1.5em;
+	text-decoration: none;
+	font-weight: normal;
+	
+}
+
+.head h1 {
+	margin: 0 0 20px 0;
+}
+
+#due {
+	margin: 0 0 0 0;
+}
+
+h2 {
+	font-size: 1.2em;
+	text-decoration: none;
+	font-weight: normal;
+	text-transform: capitalize;
+	margin-bottom: 0em;
+	padding-top: 2em;
+}
+
+h3 {
+	font-size: 1em;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+h4 {
+	font-size: 1em;
+	text-decoration: none;
+	font-weight: normal;
+	text-transform: capitalize;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding:0 0 0 1em;
+
+}
+
+ul li {
+	padding-bottom: 0.5em;
+}
+
+a {
+	color: #fff;
+}
+
+.head {
+	padding-bottom: 3em;
+	margin-left: 1em;
+}
+
+.head p {
+	margin: 0 0 20px 0;
+}
+
+.brief {
+	margin-left: 2em;
+}
+
+.brief p{
+	margin-left: 1em;
+
+}
+
+#first {
+	margin-top: 0;
+	margin-bottom: 1em;
+	padding-top: 0;
+}
+
+.exersizes {
+ position: absolute;
+ left:700px;
+ top:15%;
+}
+
+.references {
+ margin-left: 2em;
+ font-size: 0.9em;
+}
+.references p {
+ margin-left: 1em;
 }
